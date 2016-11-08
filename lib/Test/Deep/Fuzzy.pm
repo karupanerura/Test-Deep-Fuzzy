@@ -51,9 +51,25 @@ The RANGE is used for C<Math::Round::nearest()> to compare the values.
 
 =head1 SEE ALSO
 
+=over 4
+
+=item *
+
 L<Math::Round>
+
+=item *
+
 L<Test::Deep>
+
+=item *
+
 L<Test::Number::Delta>
+
+=item *
+
+L<Test::Deep::NumberTolerant>
+
+=back
 
 =head1 LICENSE
 
