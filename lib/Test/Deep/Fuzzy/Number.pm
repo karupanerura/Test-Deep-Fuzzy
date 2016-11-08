@@ -22,7 +22,7 @@ sub is_number {
     my $value = shift;
     return !!0 unless looks_like_number($value);
 
-    $value += 0; # numify
+    $value += 0.0; # numify
 
     my $flags = B::svref_2object(\$value)->FLAGS;
     return !!($flags & B::SVp_NOK & ~B::SVp_POK);

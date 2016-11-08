@@ -10,10 +10,9 @@ use Test::Deep::Fuzzy::Number;
 is +Test::Deep::Fuzzy::Number->new(0.1, 0.1)->range, 0.1, 'range is 0.1';
 is +Test::Deep::Fuzzy::Number->new(0.008)->range, 0.000001, 'default range is 0.000001';
 
-ok +Test::Deep::Fuzzy::Number::is_number(0.1),     '0.1 is number';
-ok !Test::Deep::Fuzzy::Number::is_number(1),       '1 is not number';
-ok !Test::Deep::Fuzzy::Number::is_number('10'),    '10 is not number';
-ok +Test::Deep::Fuzzy::Number::is_number('10.0'),  '10.0 is number';
+ok +Test::Deep::Fuzzy::Number::is_number(0.1),   '0.1 is number';
+ok !Test::Deep::Fuzzy::Number::is_number(1),     '1 is not number';
+ok !Test::Deep::Fuzzy::Number::is_number('10'),  '10 is not number';
 ok !Test::Deep::Fuzzy::Number::is_number('abc'), 'abc is not number';
 
 
