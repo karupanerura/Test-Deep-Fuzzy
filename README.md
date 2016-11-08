@@ -1,20 +1,22 @@
-
+[![Build Status](https://travis-ci.org/karupanerura/Test-Deep-Fuzzy.svg?branch=master)](https://travis-ci.org/karupanerura/Test-Deep-Fuzzy) [![Coverage Status](http://codecov.io/github/karupanerura/Test-Deep-Fuzzy/coverage.svg?branch=master)](https://codecov.io/github/karupanerura/Test-Deep-Fuzzy?branch=master)
 # NAME
 
 Test::Deep::Fuzzy - fuzzy number comparetion with Test::Deep
 
 # SYNOPSIS
 
-    use Test::Deep;
-    use Test::Deep::Fuzzy;
+```perl
+use Test::Deep;
+use Test::Deep::Fuzzy;
 
-    my $range = 0.001;
+my $range = 0.001;
 
-    cmp_deeply({
-        number => 0.0078125,
-    }, {
-        number => is_fuzzy_num(0.008, $range),
-    }, 'number is collect');
+cmp_deeply({
+    number => 0.0078125,
+}, {
+    number => is_fuzzy_num(0.008, $range),
+}, 'number is collect');
+```
 
 # DESCRIPTION
 
