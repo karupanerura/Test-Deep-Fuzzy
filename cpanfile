@@ -9,5 +9,6 @@ on configure => sub {
 };
 
 on test => sub {
+    requires 'Test::Deep';
     requires 'Test::More', '0.98';
 };
