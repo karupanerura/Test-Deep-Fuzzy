@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/karupanerura/Test-Deep-Fuzzy.svg?branch=master)](https://travis-ci.org/karupanerura/Test-Deep-Fuzzy) [![Coverage Status](http://codecov.io/github/karupanerura/Test-Deep-Fuzzy/coverage.svg?branch=master)](https://codecov.io/github/karupanerura/Test-Deep-Fuzzy?branch=master)
 # NAME
 
-Test::Deep::Fuzzy - fuzzy number comparetion with Test::Deep
+Test::Deep::Fuzzy - fuzzy number comparison with Test::Deep
 
 # SYNOPSIS
 
@@ -20,7 +20,7 @@ cmp_deeply({
 
 # DESCRIPTION
 
-Test::Deep::Fuzzy provides fuzzy number comparetion with [Test::Deep](https://metacpan.org/pod/Test::Deep).
+Test::Deep::Fuzzy provides fuzzy number comparison with [Test::Deep](https://metacpan.org/pod/Test::Deep).
 
 # FUNCTIONS
 

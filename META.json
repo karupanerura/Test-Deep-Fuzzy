@@ -1,5 +1,5 @@
 {
-   "abstract" : "fuzzy number comparetion with Test::Deep",
+   "abstract" : "fuzzy number comparison with Test::Deep",
    "author" : [
       "karupanerura <karupa@cpan.org>"
    ],

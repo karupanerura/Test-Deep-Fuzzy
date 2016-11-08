@@ -19,7 +19,7 @@ __END__
 
 =head1 NAME
 
-Test::Deep::Fuzzy - fuzzy number comparetion with Test::Deep
+Test::Deep::Fuzzy - fuzzy number comparison with Test::Deep
 
 =head1 SYNOPSIS
 
@@ -36,7 +36,7 @@ Test::Deep::Fuzzy - fuzzy number comparetion with Test::Deep
 
 =head1 DESCRIPTION
 
-Test::Deep::Fuzzy provides fuzzy number comparetion with L<Test::Deep>.
+Test::Deep::Fuzzy provides fuzzy number comparison with L<Test::Deep>.
 
 =head1 FUNCTIONS
 
