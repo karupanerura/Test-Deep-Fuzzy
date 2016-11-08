@@ -4,7 +4,7 @@
       "karupanerura <karupa@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.0.1, CPAN::Meta::Converter version 2.150001",
+   "generated_by" : "Minilla/v3.0.4, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "perl_5"
    ],
@@ -51,10 +51,23 @@
       },
       "test" : {
          "requires" : {
+            "Test::Deep" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/karupanerura/Test-Deep-Fuzzy/issues"
+      },
+      "homepage" : "https://github.com/karupanerura/Test-Deep-Fuzzy",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/karupanerura/Test-Deep-Fuzzy.git",
+         "web" : "https://github.com/karupanerura/Test-Deep-Fuzzy"
+      }
+   },
+   "version" : "0.01",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
 }
